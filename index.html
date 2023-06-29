@@ -3,343 +3,409 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh kapoor</title>
-    <!-- stylesheet -->
+    <title>Harsh Kapoor</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- google font  primary-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <!-- google font  secondary light -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <!-- bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+<style>
+  .footer_social_media a img {
+    max-width: 2rem;
+    margin-right: 1rem;
+}
+</style>
 
 <body>
 
 
+    <!-- navbar part -->
 
 
+    <header class="header">
+        <!-- logo -->
+
+        <img src="./images/raqib.png" class="logo_img" alt="" id="logo">
+
+        <nav class="navbar" id="navbar">
+            <ul class="navbar_list">
+                <li class="navbar_link"><a href="#home">Home</a></li>
+                <li class="navbar_link"><a href="#about">About</a></li>
+                <li class="navbar_link"><a href="#skills">Skills</a></li>
+                <li class="navbar_link"><a href="#services">Services</a></li>
+                <li class="navbar_link"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <img class="dark_light_img" src='./images/dark.png' alt="profile_image" />
+
+        <figure class="humberger_menu">
+            <img class="humberger" src="./images/open.svg" alt="humberger">
+        </figure>
+
+    </header>
 
 
+    <div class="hero" id="home">
 
 
+        <!-- hero section  -->
 
+        <div class="hero_row">
 
-    <!-- arrow up scroll to top -->
-    <div id="go-top">
-        <a href="#topmenu"> <i class="bi bi-arrow-up" id="top"></i></a>
-    </div>
-    <div class="container-fluid">
+            <!-- hero left col -->
 
+            <div class="hero_col_left">
+                <!-- socia media part -->
 
+             
 
-       
-
-
-
-        <header id="topmenu">
-            
-
-            <div class="navvbar d-flex justify-content-between" >
-                <div class="hamburger">
-                    <i class="bi bi-list" id="ham"></i>
-                    <i class="bi bi-x-lg" id="close"></i>
-                </div>
-                <div class="dark-mode">
-                    <i class="bi bi-moon-fill" id="dark"></i>
-                    <i class="bi bi-brightness-high " id="light-mode"></i>
-                </div>
-        
-                <div id="logoo">
-                    Harsh
-                </div>
-        
-                <div id="navlink">
-                    <ul class="d-flex" style="margin: 5px 0;">
-                        <li><a href="#topmenu">Home</a></li>
-                        <li><a href="#about-sec">About</a></li>
-                        <li><a href="#section2">Skills</a></li>
-                        <li><a href="#service-h">Service</a></li>
-                        <li><a href="#contact-h">Contact</a></li>
-                    </ul>
-                </div>
-                
-            </div>
-
-
-
-
-
-
-
-
-
-            <div class="row my-5 pb-4 justify-content-center">
-                <div class="col-md-5 mt-5 text-center">
-                    <div id="intro">
-                        <p id="hlo">Hello!</p>
-                        <h1>I'm Harsh Kapoor</h1>
-                        <p id="text">a front-end web developer, <br> i can create and develope best design's and
-                            layout's</p>
-                    </div>
-                    <div id="social-link">
-                        <a href="https://www.facebook.com/garv.kumar.7711"><i class="bi bi-facebook"></i></a>
-                        <a href="https://instagram.com/harsh_kapoor_73?igshid=ZGUzMzM3NWJiOQ=="><i
-                                class="bi bi-instagram"></i></a>
-                        <a href="https://wa.me/7340234366"><i class="bi bi-whatsapp"></i></a>
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                    </div>
-
-                </div>
-                <div class="col-md-5 d-flex justify-content-center py-5 mt-4">
-                    <div class="img " >
-                        <img src="images/1681890553447.jpg"  id="" alt="animate">
-                    </div>
-
-                </div>
-            </div>
-            <div id="scrolldown">
-                <a href="#about-sec"><i class="bi bi-chevron-double-down" id="down"></i></a>
-            </div>
-        </header>
-
-
-
-
-
-        <!-- main start -->
-        <main>
-
-            <!-- section1 -->
-            <section id="about-sec">
-
-                <div class="row my-5 pt-5  justify-content-center ">
-
-
-
-
-                    <div class="col-md-5 text-center px-4 px-md-0">
-                        <p id="abt-p" class="fw-bold">About <span id="me">Me</span></p>
-                        <p class="abt">Frontend Dovleper</p>
-                        <p class="intro2">
-                            “Creative and Skilled Front End Developer with 1.5 years experience, in Web development and
-                            maintaining responsive websites in the recruiting industry. Proficient in HTML, CSS, jQuery,
-                            JavaScript, and Bootstrap; in addition to modern libraries and frameworks
-                        </p>
-                        <a href="resume/frontend resume orignal (4).pdf" download id="d-cv">Download CV</a>
-                    </div>
-
-                    <div class="col-md-5 d-flex justify-content-center my-5 mt-md-0">
-                        <div class="img img2">
-                            <img src="images/IMG_20230621_114112-removebg-preview.png " alt="">
-                        </div>
-                    </div>
-
-
-
-
-
-
-                    <!-- row div end  -->
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- section2 -->
-            <section id="section2">
-                <div class="my-5 pb-4">
-                    <h1 class="text-center fw-bold" id="skills">Skills</h1>
-                    <hr class="w-25 mx-auto">
+                <div class="social_media">
+                   <a href="https://instagram.com/harsh_kapoor_73?igshid=ZGUzMzM3NWJiOQ=="> <img src="./images/instagram.png" alt=""></a>
+                    <a href=""><img src="./images/twitter (1).png" alt=""></a>
+                    <a href="https://www.facebook.com/garv.kumar.7711"><img src="./images/facebook (1).png" alt=""></a>
+                    <a href="https://wa.me/7340234366"><img src="./images/whatsapp.png" alt="">
+                    </a>
                 </div>
 
-                <!-- progress bar -->
-                <div id="progress-bar">
-                    <div class="bar">
-                        <span class="name">HTML</span>
-                        <span class="percent">90%</span>
-                        <div class="sub-bar-1 sub-bar"></div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="name">CSS</span>
-                        <span class="percent">95%</span>
-                        <div class="sub-bar-2 sub-bar"></div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="name">JavaScript</span>
-                        <span class="percent">85%</span>
-                        <div class="sub-bar-3 sub-bar"></div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="name">Bootstrap</span>
-                        <span class="percent">90%</span>
-                        <div class="sub-bar-4 sub-bar"></div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="name">jQuery</span>
-                        <span class="percent">85%</span>
-                        <div class="sub-bar-5 sub-bar"></div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="name">Git & Github</span>
-                        <span class="percent">80%</span>
-                        <div class="sub-bar-6 sub-bar"></div>
-                    </div>
-                    <!-- progres bar div end -->
-                </div>
-
-
-            </section>
-
-            <!-- section  3 start -->
-            <section>
-
-                
-                    <h1 class="text-center my-5" id="service-h">Services</h1>
-                    <div class="row px-5 justify-content-around">
-                 
-                        <div class="col-md-3  d-flex flex-column justify-content-center align-items-center service-bg" >
-
-                            <div>
-                                <i class="bi bi-code-slash"></i>
-                            </div>
-                            <p>Frontend</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
-                                <li>Git & Github</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-3  d-flex flex-column justify-content-center align-items-center service-bg" >
-
-                            <div>
-                                <i class="bi bi-eyedropper"></i>
-                            </div>
-                            <p>Web Design</p>
-                           <p class="p-text">
-                            Responsive web design for pc , desktop and mobile devices....
-                           </p>
-                        </div>
-
-                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center service-bg" >
-
-                            <div>
-                                <i class="bi bi-palette2"></i>
-                            </div>
-                            <p class="p-text">UI & UX Design</p>
-                            
-                        </div>
+                <div class="left_col_content">
+                    <h6>Hello!</h6>
+                    <h1>I'm Harsh Kapoor</h1>
+                    <p>a front end web developer, i can create and develope best design's and layout's</p>
+                    <button class="scroll_btn"><a href="#about"> Scroll Down</a> <img src="./images/mouse-cursor.png"
+                             alt="">
+                    </button>
 
                 </div>
 
-
-
-            </section>
-
-
-
-
-
-
-            <!-- section 4 start -->
-            <div class="my-5">
-                <h1 class="text-center " id="contact-h">Contact Me</h1>
-                <hr class="mx-auto w-25">
-            </div>
-            <div id="contactme">
-                <form action="https://formspree.io/f/moqzbneb" method="POST">
-                    <div>
-                        <input type="text" placeholder="Firstname" required name="name">
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Lastname" required name="lname">
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Enter your email." required name="lname">
-                    </div>
-                    <div>
-
-                        <textarea placeholder="Write a Messeage........"></textarea>
-                    </div>
-
-                    <div><input type="submit" value="Send Messeage" id="submit-btn"></div>
-                </form>
 
             </div>
 
-        </main>
-
-
-
-
-        <footer class="p-5 p-mb-0">
-            <div>
-                <h3 class="text-center mb-4" id="footer-about">About</h3>
-                <p class="intro2 intro3">
-                    “Creative and Skilled Front End Developer with 1.5 years experience, in Web development and
-                    maintaining responsive websites in the recruiting industry. Proficient in HTML, CSS, jQuery,
-                    JavaScript, and Bootstrap; in addition to modern libraries and frameworks
-                </p>
-                <div id="social-link" class="social">
-                    <a href="https://www.facebook.com/garv.kumar.7711"><i class="bi bi-facebook"></i></a>
-                    <a href="https://instagram.com/harsh_kapoor_73?igshid=ZGUzMzM3NWJiOQ=="><i
-                            class="bi bi-instagram"></i></a>
-                    <a href="https://wa.me/7340234366"><i class="bi bi-whatsapp"></i></a>
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                </div>
+            <!-- hero right col -->
+            <div class="hero_col_right">
+                <figure>
+                    <img src="./images/1681890553447.jpg" alt="">
+                </figure>
             </div>
-        </footer>
 
-        <!-- container-fluid div -->
+
+        </div>
     </div>
 
+    <!-- about part -->
+
+
+    <div class="about" id="about">
+        <h1>My Introduction</h1>
+        <figure style="text-align: center;"><img src="./images/IMG_20230621_114112-removebg-preview.png" class="about_image" alt="about image"></figure>
+        <p>i am Harsh Kapoor a front end web developer with extensive knowledge of one years experience, in web
+            technologies and, delivering quality work.</p>
+
+        <!-- my bio part -->
+
+        <div class="bio_container">
+
+            <div class="bio">
+                <h1>01+</h1>
+                <p>Years<br />Experience</p>
+            </div>
+            <div class="bio">
+                <h1>10+</h1>
+                <p>Projects<br />Completed</p>
+            </div>
+            <div class="bio">
+                <h1>08+</h1>
+                <p>Skills Learned</p>
+            </div>
+        </div>
+
+        <!-- cv button -->
+
+        <a class="cv_btn" href="./images/Resume2.pdf" download>
+            <h3>Download CV</h3><img src="./images/download.svg" />
+        </a>
+    </div>
+
+
+    <!-- Skills Section -->
+
+
+    <div class="skills_container" id="skills">
+        <h1>Skills</h1>
+        <div class="skill_content">
+
+            <div class="skills html">
+                <span class="skill ">HTML</span>
+                <span class="percent">90%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills css">
+                <span class="skill ">CSS</span>
+                <span class="percent">90%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills JS">
+                <span class="skill ">Javascript</span>
+                <span class="percent">80%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills React">
+                <span class="skill ">Bootstarp</span>
+                <span class="percent">85%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills Node">
+                <span class="skill ">jQery</span>
+                <span class="percent">70%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills Bootstrap">
+                <span class="skill ">PSD TO HTML</span>
+                <span class="percent">70%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills Material_ui">
+                <span class="skill ">GIT & GITHUB</span>
+                <span class="percent">85%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills React_Redux">
+                <span class="skill ">React JS</span>
+                <span class="percent">70%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services section -->
+
+    <div class="service_container" id="services">
+        <h1>Services</h1>
+        <div class="service_row">
+            <div class="service_card">
+                <img src="./images//front-end (1).png" alt="">
+                <div class="card_content">
+                    <h2>Front End</h2>
+
+                    <div class="skill_div">
+                        <span></span>
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>CSS</p>
+
+                    </div>
+
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>Javascript</p>
+
+                    </div>
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>Git</p>
+
+                    </div>
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>Github</p>
+
+                    </div>
+                   
+
+                   
+                </div>
+            </div>
+
+
+            <!-- frame work section -->
+
+
+            <div class="service_card " id="backend_card">
+                <img src="./images/backend.png" alt="">
+                <div class="card_content">
+
+                    <h2>Framework</h2>
+
+                    <div class="skill_div">
+                        <span></span>
+                        <p>Bootstarp</p>
+                    </div>
+
+
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>jQery</p>
+
+                    </div>
+
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>React JS</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ui ux section -->
+
+            <div class="service_card ">
+                <img src="./images/ui.png" alt="">
+                <div class="card_content">
+
+                    <h2>UI/UX</h2>
+
+                    <div class="skill_div">
+
+                        <span></span>
+                        <p>Photoshop etc.</p>
+
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- portfolio section -->
+
+
+    <div class="portfolio_container" id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="portfolio_parent">
+
+
+            <img class="portfolio_left_img" id="prevButton" src="./images/correct.png" alt="">
+
+
+            <div class="portfolio_row">
+                <div class="portfolio_left_col">
+                    <h1 class="portfolio_title">Calculator</h1>
+                    <div class="stars_div">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                    </div>
+                    <p class="portfolio_text"></p>
+                </div>
+
+                <!-- right col -->
+
+                <div class="portfolio_right_col">
+                    <img src="./images/calculator.JPG" id="mainImage" alt="">
+                </div>
+            </div>
+
+
+            <img src="./images//correct.png" id="nextButton" alt="">
+
+        </div>
+        <div class="slide_container">
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+            <span class="slide"></span>
+        </div>
+    </div>
+
+
+
+
+    <!-- contact section -->
+
+<style>
+    #contact_row{
+        width: 100% !important;
+    }
+    form{
+        width: 100% !important;
+        padding: 20px;
+    }
+</style>
+    <div class="contact_container" id="contact">
+        <h1>Contact Me</h1>
+        <div id="contact_row">
+            <form  action="https://formspree.io/f/moqzbneb" method="POST" class="form">
+                <input type="text" name="name" id="name" placeholder="First Name" required>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                <input type="email" name="email" id="email" placeholder="What's Your Email?" required>
+                <textarea
+                          name="textarea"
+                          id="textarea"
+                          cols="20"
+                          rows="10"
+                          placeholder='Write a message...'></textarea>
+                <button class="message_btn">Send Message</button>
+            </form>
+           
+        </div>
+    </div>
+
+
+    <!-- Scroll to top Button -->
+
+    <div id="scroll_top_button" title="Scroll to top">
+        <img src="./images/scroll.svg">
+    </div>
+
+    <!-- Footer -->
+
+
+    <div class="footer_container">
+        <div class="footer_row">
+            <div class="footer_left_col">
+                <h1>About</h1>
+                <p>i am Harsh Kapoor a front end web developer with extensive knowledge of one years experience, in
+                    web technologies  delivering quality work.</p>
+                <div class="footer_social_media">
+                    <a href="https://instagram.com/harsh_kapoor_73?igshid=ZGUzMzM3NWJiOQ=="> <img src="./images/instagram.png" alt=""></a>
+                    <a href=""><img src="./images/twitter (1).png" alt=""></a>
+                    <a href="https://www.facebook.com/garv.kumar.7711"><img src="./images/facebook (1).png" alt=""></a>
+                    <a href="https://wa.me/7340234366"><img src="./images/whatsapp.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_right_col">
+                <h1>Quick Links</h1>
+                <ul class="footer_list">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">My Skill</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
-<script>
-    window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 250) {
-            document.querySelector('#top').style.opacity = '1';
-        }
-        else {
-            document.querySelector('#top').style.opacity = '0';
-        }
-    })
-</script>
-<!-- js file -->
-<script src="script.js"></script>
-<!-- bootstrap js -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 
 </html>
