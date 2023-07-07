@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta name="google-site-verification" content="caMWngSz7Si2EMaoLradOfrmoMXnSoX71LJLZEQzMgY" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +19,29 @@
 
 
     <!-- navbar part -->
-
-
+<style>
+    #preloader{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1000000000;
+        background: url(images/preloader.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #pre{
+     
+        width: 200;
+        height: 200px;
+    }
+</style>
+<div id="preloader">
+    <img src="images/preloader.gif" id="pre" alt="">
+</div>
     <header class="header">
         <!-- logo -->
 
@@ -407,6 +427,12 @@
         </div>
     </div>
     <script src="./script.js"></script>
+    <script>
+        let loader = document.querySelector('#preloader');
+        window.addEventListener('load', function(){
+            loader.style.display ='none'
+        })
+    </script>
 </body>
 
 </html>
